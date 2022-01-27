@@ -13,14 +13,18 @@
   justify-content: space-around;
   align-items: center;
   gap: 1rem;
-  background-color: #1e3d59;
+  background-color: #ffc13b;
   color: #f5f0e1;
   padding: 0 1rem;
   max-width: 100%;
 }
+
 img {
   width: 100%;
   height: auto;
+}
+h3 {
+  font-size: 2.2rem
 }
 
 a {
@@ -40,8 +44,8 @@ footer {
     align-items: center;
     height: 5rem;
     margin-top: 10px;
-    background-color: var(--black);
-    color: var(--light-red);
+    background-color: #ffc13b ;
+    color: #f5f0e1
 }
 
 .main-header  {
@@ -51,7 +55,7 @@ footer {
   
   border-radius: 8px;
   margin: 2rem 50px 2rem 50px;
-  background-color: #ff6e40;
+  background-color: #f5f0e1;
   color: #1e3d59;
 }
 
@@ -84,17 +88,17 @@ footer {
   flex-wrap: wrap; 
 }
 
-.card-container{
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  flex-wrap: wrap;
-  gap: 3rem
+.img-wrapper {
+  max-width: 800px;
 }
 
-.img-wrapper {
-  max-width: 100px;
+.text-center {
+  display:flex;
+  flex: column;
+  align-items: center;
+  margin: 3px 4px 2px 2px
 }
+
 /* *********************** */
 /* Content in logo wrapper */
 /* *********************** */
@@ -109,13 +113,13 @@ footer {
 
 .logo-wrapper p{
   font-size: 1.65rem;
-  color: #E3170AFF;
+  color: #1e3d59;
   font-weight: bold;
 }
 
 .logo-wrapper i {
   font-size: clamp(3.5rem,10vw,4rem);
-  color: #E3170AFF;
+  color: #1e3d59;
   }
 /* ******* */
 /* Sign-up */
@@ -127,8 +131,8 @@ footer {
 }
 
 .signup a {
-  background-color: black;
-  color: white;
+  background-color: #1e3d59;
+  color: #f5f0e1;
   padding: 20px 10px;
   transition: 300ms background-color;
   text-align: center;
@@ -142,49 +146,18 @@ footer {
 /* **Cards** */
 /* ********* */
 
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  
-  background-color: #A9E5BBFF;
-  border-radius: 5px;
-}
-
-.card h3 {
-  font-size: clamp(1.8rem, 5vw, 2rem);
-  color: #FCF6B1FF;
-}
-
-.card p {
-  max-width: 30ch;
-  min-width: 10ch;
-}
-.card a {
-  color: white;
-  text-decoration: none;
-  transition: 300ms background-color;
-}
-.card a:hover {
-  background-color: darkred;
-}
-.card-info {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: white;
-  color: black;
-  margin: 2px 5px 2px 5px;
-  padding: 5px 2px 5px 2px;
-  border-radius: 3px;
-  font-size: 15px
-}
 
 .btn {
-  background-color: #E3170AFF;
+  background-color: #ff6e40;
   display: flex;
   justify-content: center;
   padding: 5px 10px;
   border-radius: 8px;
   margin: 10px 0px 25px 0px;
+}
+p
+ {
+  max-width: 75ch;
+  font-family: 'Open Sans', sans-serif;
+  font-size: clamp(1.2rem, 5vw,1.2rem); 
 }
