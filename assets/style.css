@@ -13,11 +13,10 @@
   justify-content: space-around;
   align-items: center;
   gap: 1rem;
-  background-color: #F7B32BFF;
-  color: white;
+  background-color: #1e3d59;
+  color: #f5f0e1;
   padding: 0 1rem;
   max-width: 100%;
-  margin-left: 
  
 }
 
@@ -49,8 +48,8 @@ footer {
   
   border-radius: 8px;
   margin: 2rem 50px 2rem 50px;
-  background-color: white;
-  color: #E3170AFF;
+  background-color: #ff6e40;
+  color: #1e3d59;
 }
 
 .main-header p {
