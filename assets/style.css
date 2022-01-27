@@ -88,6 +88,9 @@ footer {
   flex-wrap: wrap;
   gap: 3rem
 }
+.img-wrapper {
+  max-width: 800px;
+}
 /* *********************** */
 /* Content in logo wrapper */
 /* *********************** */
